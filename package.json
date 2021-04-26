@@ -1,5 +1,5 @@
 {
-  "name": "Lottery",
+  "name": "@oni-exchange/onilottery",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,10 @@
     "flatten": "truffle-flattener contracts/Lottery.sol > contracts/flattened/Lottery.sol && truffle-flattener contracts/LotteryNFT.sol > contracts/flattened/LotteryNFT.sol && truffle-flattener contracts/LotteryUpgradeProxy.sol > contracts/flattened/LotteryUpgradeProxy.sol"
   },
   "dependencies": {
+    "@oni-exchange/onilib": "git://github.com/oni-exchange/onilib.git",
     "@openzeppelin/contracts": "^3.2.0",
     "@openzeppelin/test-helpers": "^0.5.6",
-    "@oni-exchange/onilib": "git://github.com/oni-exchange/onilib.git",
+    "ganache-cli": "^6.12.2",
     "truffle": "^5.1.41"
   },
   "devDependencies": {
