@@ -12,7 +12,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0",
     "@openzeppelin/test-helpers": "^0.5.6",
-    "@oni-exchange/oni-lib": "0.0.1",
+    "@oni-exchange/onilib": "git://github.com/oni-exchange/onilib.git",
     "truffle": "^5.1.41"
   },
   "devDependencies": {
